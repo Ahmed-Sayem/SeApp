@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sales Point Name: [---]"
+        android:textSize="18sp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: [---]"
+        android:textSize="18sp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BSTID: [---]"
+        android:textSize="18sp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device Type: [---]"
+        android:textSize="18sp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount: [---]"
+        android:textSize="18sp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Type: [---]"
+        android:textSize="18sp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device Price: [---]"
+        android:textSize="18sp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subscription active: [---]"
+        android:textSize="18sp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area: [---]"
+        android:textSize="18sp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: [---]"
+        android:textSize="18sp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Sales Lead">
+
+    </com.google.android.material.button.MaterialButton>
+</LinearLayout>

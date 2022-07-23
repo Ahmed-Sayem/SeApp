@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/Desktop/Android-SEApp-Layout/Android-SEApp-Layout/app/src/main/res/layout/activity_home.xml" value="0.25815217391304346" />
+        <entry key="..\:/Users/Admin/Desktop/Android-SEApp-Layout/Android-SEApp-Layout/app/src/main/res/layout/activity_login.xml" value="0.25815217391304346" />
+        <entry key="..\:/Users/Admin/Desktop/Mobile App/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/Mobile App/app/src/main/res/layout/create_sales_point.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/Mobile App/app/src/main/res/layout/inventory.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/Mobile App/app/src/main/res/layout/login.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/Mobile App/app/src/main/res/layout/menu_list.xml" value="0.3625" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1425" />
+        <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-w936dp/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_attendance.xml" value="0.13229166666666667" />
+        <entry key="app/src/main/res/layout/activity_create_sales_point.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_history.xml" value="0.11458333333333333" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_inventory.xml" value="0.13229166666666667" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.13229166666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12952898550724637" />
+        <entry key="app/src/main/res/layout/create_sales_point.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/fragment_form.xml" value="0.27794871794871795" />
+        <entry key="app/src/main/res/layout/fragment_history.xml" value="0.27794871794871795" />
+        <entry key="app/src/main/res/layout/inventory.xml" value="0.13229166666666667" />
+        <entry key="app/src/main/res/layout/inventory_row.xml" value="0.20567375886524822" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/menu_list.xml" value="0.13229166666666667" />
+        <entry key="app/src/main/res/layout/point_recyclerview_item.xml" value="0.13229166666666667" />
+        <entry key="app/src/main/res/layout/point_row.xml" value="0.2049469964664311" />
+        <entry key="app/src/main/res/menu/top_app_bar.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".HomeActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:menu="@menu/top_app_bar"
+            app:navigationIcon="@drawable/ic_baseline_menu_24"
+            app:subtitle="Sales Executive"
+            app:title="Name" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Note: A RecyclerView can also be used -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"></androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAttendance"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/attendance"
+        android:textSize="13sp"
+        app:cornerRadius="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCreateSP"
+        app:layout_constraintEnd_toStartOf="@+id/btnDashboard"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDashboard"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="Inventory History"
+        android:textSize="13sp"
+        app:cornerRadius="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnInventory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnAttendance"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCreateSP"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:text="Manage Sales Point"
+        app:cornerRadius="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnShowRoute"
+        app:layout_constraintEnd_toEndOf="@+id/btnAttendance"
+        app:layout_constraintStart_toStartOf="@+id/btnAttendance"
+        app:layout_constraintTop_toBottomOf="@+id/btnAttendance" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnInventory"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:text="Place Order"
+        app:cornerRadius="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnNewsfeed"
+        app:layout_constraintEnd_toEndOf="@+id/btnDashboard"
+        app:layout_constraintStart_toStartOf="@+id/btnDashboard"
+        app:layout_constraintTop_toBottomOf="@+id/btnDashboard" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnShowRoute"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:text="@string/showRoute"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnCreateSP"
+        app:layout_constraintStart_toStartOf="@+id/btnCreateSP"
+        app:layout_constraintTop_toBottomOf="@+id/btnCreateSP" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnNewsfeed"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:text="@string/notice"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnInventory"
+        app:layout_constraintStart_toStartOf="@+id/btnInventory"
+        app:layout_constraintTop_toBottomOf="@+id/btnInventory" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
